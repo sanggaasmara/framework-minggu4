@@ -15,19 +15,6 @@
       "hp": "0812345678",
       "angkatan": 2015,
       "status": "lulus"
-    },
-    {
-      "id": 1648439107822,
-      "nim": "1941720215",
-      "nama": "sangga asmara",
-      "alamat": "jl balearjosari",
-      "hp": "082143",
-      "angkatan": "2019",
-      "status": "lulus"
     }
-  ],
-  "comments": [],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

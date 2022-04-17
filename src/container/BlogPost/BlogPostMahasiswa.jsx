@@ -3,9 +3,9 @@ import './BlogPostMahasiswa.css';
 import PostMahasiswa from "../../component/BlogPost/PostMahasiswa";
 
 class BlogPostMahasiswa extends Component {
-    state = {               
-        listMahasiswa: [],    
-        insertMahasiswa: {          
+    state = {
+        listMahasiswa: [],
+        insertMahasiswa: {
             id: 1,
             nim: "",
             nama: "",

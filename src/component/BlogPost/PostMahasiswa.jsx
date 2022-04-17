@@ -7,12 +7,12 @@ const PostMahasiswa = (props) => {
                 <img src="http://placeimg.com/80/80/tech" alt="Gambar Thumbnail Mahasiswa" />
                 </div> 
             <div className="konten-mahasiswa">
-                <div className="nim-mahasiswa">{props.nim}</div>
-                <p className="nama-mahasiswa">{props.nama}</p>
-                <p className="alamat-mahasiswa">{props.alamat}</p>
-                <p className="hp-mahasiswa">{props.hp}</p>
-                <p className="angkatan-mahasiswa">{props.angkatan}</p>
-                <p className="status-mahasiswa">{props.status}</p>
+                <div >{props.nim}</div>
+                <p>{props.nama}</p>
+                <p>{props.alamat}</p>
+                <p>{props.hp}</p>
+                <p>{props.angkatan}</p>
+                <p>{props.status}</p>
                 <button className="btn btn-sm btn-warning" onClick={() => props.hapusMahasiswa(props.idMahasiswa)}>Hapus</button>
             </div>
         </div>
